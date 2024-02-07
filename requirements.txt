@@ -1,0 +1,8 @@
+matplotlib==3.5.2
+numpy==1.25.1
+scipy==1.11.1
+casadi==3.6.3
+roboticstoolbox-python==1.1.0
+qpsolvers==3.4.0
+quadprog==0.1.11
+clarabel==0.5.1

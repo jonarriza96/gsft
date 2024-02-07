@@ -1,0 +1,3 @@
+[submodule "gsfc/external/traj_gen"]
+	path = gsfc/external/traj_gen
+	url = https://github.com/icsl-Jeon/traj_gen.git
