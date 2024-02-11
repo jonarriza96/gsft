@@ -1,6 +1,29 @@
 # GSFT: Geometric Slosh-Free Tracking for Robotic Manipulators
 
-This repository contains the code for the submission "Geometric Slosh-Free Tracking for Robotic Manipulators" for ICRA24.
+A real-time slosh-free tracking method for robotic manipulators.
+
+|                                      |                                      |
+| :----------------------------------: | :----------------------------------: |
+| ![simulation1](docs/lissajous_1.gif) | ![simulation2](docs/lissajous_2.gif) |
+
+<p align="center">
+  <img src="docs/lissajous_3.gif"/>
+</p>
+
+<!-- ![experiment](docs/lissajous_3.gif) -->
+
+For the implementation details, please check the [paper](https://arxiv.org/pdf/2402.05197.pdf) and/or watch the [video](https://youtu.be/4kitqYVS9n8). If you use this framework please cite our work:
+
+```
+@misc{arrizabalaga2024geometric,
+      title={Geometric Slosh-Free Tracking for Robotic Manipulators},
+      author={Jon Arrizabalaga and Lukas Pries and Riddhiman Laha and Runkang Li and Sami Haddadin and Markus Ryll},
+      year={2024},
+      eprint={2402.05197},
+      archivePrefix={arXiv},
+      primaryClass={cs.RO}
+}
+```
 
 ## Installation
 
@@ -32,10 +55,10 @@ export PYTHONPATH=$PYTHONPATH:/$GSFT_PATH
 
 ## Usage
 
-To run an example, execute [this file](gsfc/gsfcrm0.py). For example,
+To run an example, execute [this file](main.py). For example,
 
 ```
-python gsfcrm0.py --t_nav 6.5 --case h
+python main.py --t_nav 6.5 --case h
 ```
 
-runs the `helix` case study for a navigation time of `6.5 s`. The other two case studies are `b` (backflip, named "loop" in the paper) or `l` (lissajous). You can also add the `--no_visualization` and `--nsf` (non slosh-free) flags when running the command. Other seettings can be modified from the [configuration file](gsfc/config.py)
+runs the `helix` case study for a navigation time of `6.5 s`. The other two case studies are `b` (backflip, named "loop" in the paper) or `l` (lissajous). You can also add the `--no_visualization` and `--nsf` (non slosh-free) flags when running the command. Other seettings can be modified from the [configuration file](config.py)
