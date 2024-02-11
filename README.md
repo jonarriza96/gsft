@@ -2,8 +2,8 @@
 
 A real-time slosh-free tracking method for robotic manipulators.
 
-|                                      |                                      |                                      |
-| ------------------------------------ | ------------------------------------ | ------------------------------------ |
+|      Slosh-free reference (sim)      |      Slosh-free tracking (sim)       |      Slosh-free motions (real)       |
+| :----------------------------------: | :----------------------------------: | :----------------------------------: |
 | ![simulation1](docs/lissajous_1.gif) | ![simulation2](docs/lissajous_2.gif) | ![simulation2](docs/lissajous_3.gif) |
 
 <!-- ![experiment](docs/lissajous_3.gif) -->
