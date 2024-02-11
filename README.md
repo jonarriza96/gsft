@@ -2,13 +2,9 @@
 
 A real-time slosh-free tracking method for robotic manipulators.
 
-|                                      |                                      |
-| :----------------------------------: | :----------------------------------: |
-| ![simulation1](docs/lissajous_1.gif) | ![simulation2](docs/lissajous_2.gif) |
-
-<p align="center">
-  <img src="docs/lissajous_3.gif"/>
-</p>
+|                                      |                                      |                                      |
+| ------------------------------------ | ------------------------------------ | ------------------------------------ |
+| ![simulation1](docs/lissajous_1.gif) | ![simulation2](docs/lissajous_2.gif) | ![simulation2](docs/lissajous_3.gif) |
 
 <!-- ![experiment](docs/lissajous_3.gif) -->
 
